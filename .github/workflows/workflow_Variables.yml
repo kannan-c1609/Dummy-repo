@@ -13,3 +13,8 @@ jobs:
         run: echo "$Greeting $First_Name is using $cloud"
         env:
           First_Name: Azhagii
+  greeting_job2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Say Hello Kannan! it's Tuesday"
+        run: echo "$Greeting $First_Name is using $cloud
