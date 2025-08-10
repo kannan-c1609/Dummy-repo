@@ -17,4 +17,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Say Hello Kannan! it's Tuesday"
-        run: echo "$Greeting $First_Name is using $cloud
+        run: echo "${{ Greeting_1 }} $ {{ First_Name_1 }} is using $cloud
